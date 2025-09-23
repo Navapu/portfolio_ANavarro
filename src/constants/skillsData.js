@@ -1,0 +1,18 @@
+export const skillsData = [
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "HTML & CSS",
+    "Git & GitHub",
+    "Docker",
+    "Vite",
+    "Python",
+    "Android Studio",
+    "Microsoft Dynamics NAV",
+    "ERP Integration",
+]

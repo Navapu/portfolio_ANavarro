@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="flex items-center gap-12">
         <div className="hero-text">
           <h1 className="text-5xl font-bold m-0 font-poppins">Alejandro Navarro</h1>
-          <h2 className="text-xl text-gray-600 my-2 font-inter">Full Stack Developer Junior</h2>
+          <h2 className="text-xl my-2 font-inter text-[#D1D5DB]">Full Stack Developer Junior</h2>
           <p className="text-lg mb-5 font-inter">Aprendiendo, programando y mejorando con cada proyecto</p>
           <a href="#projects" className="px-5 py-2 bg-blue-600 text-white rounded-md transition duration-500 hover:bg-black">Ver mis proyectos</a>
         </div>

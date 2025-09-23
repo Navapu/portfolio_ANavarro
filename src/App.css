@@ -1,8 +1,11 @@
+body {
+  background-color: #1F2937; /* fondo gris suave */
+  color: #F3F4F6; /* texto principal */
+}
 .timeline-content {
   width: 100%;
   max-width: 65%;
   padding: 1rem;
-  background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
@@ -18,13 +21,11 @@
 
 .timeline-content.left:hover {
   transform: translateX(-15rem) scale(1.05);
-  background-color: #ebf2ff;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .timeline-content.right:hover {
   transform: translateX(15rem) scale(1.05);
-  background-color: #ebf2ff;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
