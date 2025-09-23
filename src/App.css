@@ -1,13 +1,16 @@
 body {
-  background-color: #1F2937; /* fondo gris suave */
-  color: #F3F4F6; /* texto principal */
+  background-color: #1F2937;
+  /* fondo gris suave */
+  color: #F3F4F6;
+  /* texto principal */
 }
+
 .timeline-content {
   width: 100%;
   max-width: 65%;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -21,15 +24,16 @@ body {
 
 .timeline-content.left:hover {
   transform: translateX(-15rem) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(190, 190, 190, 0.2);
 }
 
 .timeline-content.right:hover {
   transform: translateX(15rem) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(190, 190, 190, 0.2);
 }
 
 @media screen and (max-width: 768px) {
+
   .timeline-content,
   .timeline-content.left,
   .timeline-content.right {
@@ -37,4 +41,14 @@ body {
     margin-bottom: 1rem;
     transform: translateX(0) !important;
   }
+}
+
+.project-card {
+  cursor: pointer;
+  transition: 0.5s
+}
+
+.project-card:hover {
+  transform: translateY(-0.5rem) scale(1.05);
+  box-shadow: 0 8px 16px rgba(190, 190, 190, 0.2);
 }

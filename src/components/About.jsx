@@ -7,14 +7,12 @@ const About = () => {
             <h2 className="text-3xl font-bold font-poppins mb-12 text-center text-[#F3F4F6]">Sobre mí</h2>
 
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* Columna izquierda: texto */}
                 <motion.div
                     className="p-6 bg-[#374151] rounded-md shadow-md hover:shadow-xl transition-shadow duration-300"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
+                    transition={{ duration: 0.6 }}>
                     <p className="text-[#F3F4F6] font-inter text-lg mb-4">
                         Soy <span className="font-bold">Alejandro Navarro</span>, Full Stack Developer Junior, apasionado por crear aplicaciones web dinámicas y funcionales.
                     </p>
@@ -31,13 +29,9 @@ const About = () => {
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
+                    transition={{ duration: 0.6 }}>
                     {skillsData.map((skill, index) => (
-                        <span
-                            key={index}
-                            className="bg-[#1F2937] border border-gray-500 text-[#F3F4F6] font-medium px-3 py-1 rounded-full shadow-sm hover:shadow-md transition-all duration-300 leading-none text-sm"
-                        >
+                        <span key={index} className="bg-[#1F2937] border border-gray-500 text-[#F3F4F6] font-medium px-3 py-1 rounded-full shadow-sm hover:shadow-md transition-all duration-300 leading-none text-sm">
                             {skill}
                         </span>
                     ))}
