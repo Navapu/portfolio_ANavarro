@@ -1,14 +1,14 @@
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import About from './components/About'
+import Education from './components/Education'
 function App() {
 
   return (
     <>
       <Header />
       <Hero />
-      <About />
+      <Education />
     </>
   )
 }
