@@ -6,5 +6,14 @@ export const projectsData = [
         image: "/projects/navarros-dolce-vita.png",
         github: "https://github.com/Navapu/NavarrosDolceVita-Frontend",
         demo: "https://navarros-dolce-vita-frontend.vercel.app/"
+    },
+    {
+        title: "Rick and Morty API",
+        description: "App web conectada a la API de Rick and Morty que permite filtrar personajes por estado, especie o nombre.",
+        tech: ["React.js", "JavaScript", "CSS", "API REST"],
+        image: "/projects/rickandmorty.png",
+        github: "https://github.com/Navapu/rickandmorty-react",
+        demo: "https://rickandmorty-react.vercel.app/"
     }
+
 ]
