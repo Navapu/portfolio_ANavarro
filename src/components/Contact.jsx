@@ -51,7 +51,7 @@ const Contact = () => {
                 <div className="flex flex-col gap-2 justify-center items-center mt-8 text-center text-gray-300">
                     <p className="text-lg">¿Quieres colaborar o tienes alguna propuesta? 📬</p>
                     <a href="mailto:drojannp@gmail.com" className="text-blue-400 hover:underline">📧 drojannp@gmail.com</a>
-                    <a href="https://www.linkedin.com/in/tuusuario/" target="_blank" className="text-blue-400 hover:underline">💼 LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/alejandro-navarro-puig-7611891bb/" target="_blank" className="text-blue-400 hover:underline">💼 LinkedIn</a>
                     <a href="https://github.com/Navapu" target="_blank" className="text-blue-400 hover:underline">🖥️ GitHub</a>
                 </div>
             </div>

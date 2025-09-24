@@ -1,8 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1F2937;
-  /* fondo gris suave */
   color: #F3F4F6;
-  /* texto principal */
 }
 
 .timeline-content {
